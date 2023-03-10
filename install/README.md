@@ -26,6 +26,10 @@ cd ~/airbyte
 nohup ./run-ab-platform.sh >> ./run.log 2>&1 &
 连接到airbyte
 
+https://EIP:8000
+user airbyte
+password password
+
 SSH_KEY=~/**.pem
 ssh -i $SSH_KEY -L 8000:localhost:8000 -N -f ec2-user@13.**.**.116
 
